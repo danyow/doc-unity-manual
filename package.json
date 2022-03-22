@@ -1,0 +1,14 @@
+{
+  "name": "doc-unity-manual",
+  "version": "1.0.0",
+  "main": "scripts/main.js",
+  "repository": "git@github.com:danyow/doc-unity-manual.git",
+  "author": "danyow <i.zuucol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.3",
+    "node-stream-zip": "^1.15.0",
+    "turndown": "^7.1.1",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
