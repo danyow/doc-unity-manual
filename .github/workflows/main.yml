@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-          cache: yarn
+          #cache: yarn
       - name: 创建模板
         run: |
           npx create-docusaurus@latest website classic --package-manager yarn --skip-install
