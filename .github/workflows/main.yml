@@ -14,13 +14,13 @@ jobs:
     name: 运行脚本
     runs-on: ubuntu-latest
     steps:
-      #- name: 检出代码
-      #  uses: actions/checkout@v3
+      - name: 检出代码
+        uses: actions/checkout@v3
       - name: 设置 node 版本
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-          #cache: yarn
+          cache: yarn
       - name: 创建模板
         run: |
           npx create-docusaurus@latest website classic --package-manager yarn
