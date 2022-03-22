@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: '16'
           cache: yarn
-      - name: 创建模板
-        run: |
-          npx create-docusaurus@latest website classic --package-manager yarn
+#      - name: 创建模板
+#        run: |
+#          npx create-docusaurus@latest website classic --package-manager yarn
 
       - name: 配置当前目录环境
         run: |
