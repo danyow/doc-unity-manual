@@ -27,3 +27,4 @@ yarn-error.log*
 
 # 自定义
 /i18n
+/build
