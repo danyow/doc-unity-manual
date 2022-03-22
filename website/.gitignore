@@ -1,20 +1,14 @@
-# 默认忽略的文件
-/.idea/
-
-
-
-# 依赖关系
+# Dependencies
 /node_modules
 
-# 生产
+# Production
 /build
-/scripts_build
 
-# 生成的文件
+# Generated files
 .docusaurus
 .cache-loader
 
-# 杂项
+# Misc
 .DS_Store
 .env.local
 .env.development.local
@@ -24,7 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# 自定义
-/i18n
-/build
