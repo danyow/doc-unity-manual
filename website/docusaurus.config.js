@@ -9,7 +9,7 @@ const config = {
   title: 'Unity 手册',
   tagline: 'Dinosaurs are cool',
   url: 'http://danyow.github.io/doc-unity-manual/',
-  baseUrl: '/',
+  baseUrl: '/doc-unity-manual/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
