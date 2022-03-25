@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Unity 手册',
   tagline: 'Dinosaurs are cool',
-  url: 'http://danyow.github.io/doc-unity-manual/',
+  url: 'https://danyow.github.io/doc-unity-manual/',
   baseUrl: '/doc-unity-manual/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
